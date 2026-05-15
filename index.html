@@ -233,8 +233,11 @@
             </div>
 
             <div class="card">
-                <div class="card-title">🔔 الإشعارات</div>
-                <p>يستخدم التطبيق الإشعارات المحلية لتذكيرك بمهامك ومواعيدك. هذه الإشعارات تعمل محلياً بالكامل ولا تتطلب اتصالاً بالإنترنت.</p>
+                <div class="card-title">🔔 الإشعارات والتنبيهات الدقيقة</div>
+                <p>يستخدم التطبيق نظام الإشعارات لتذكيرك بمهامك اليومية، مواعيدك، وأوقات الأدوية الخاصة بك.</p>
+                <p><strong>إذن الإشعارات:</strong> نطلب هذا الإذن (POST_NOTIFICATIONS) لعرض التنبيهات على شاشتك عند حلول وقت المهمة.</p>
+                <p><strong>إذن التنبيه الدقيق (SCHEDULE_EXACT_ALARM):</strong> بما أن التطبيق يحتوي على تذكيرات حساسة للوقت (مثل مواعيد الأدوية والاجتماعات)، نستخدم هذا الإذن لضمان إطلاق التنبيه في الدقيقة والثانية المحددة بالضبط التي اخترتها، دون تأخير من نظام حفظ طاقة البطارية.</p>
+                <p>✅ جميع عمليات جدولة الإشعارات تتم <strong>محلياً بالكامل</strong> داخل هاتفك ولا تتطلب اتصالاً بالإنترنت.</p>
             </div>
 
             <h2>2. تخزين البيانات</h2>
@@ -333,8 +336,11 @@
             </div>
 
             <div class="card">
-                <div class="card-title">🔔 Notifications</div>
-                <p>The app uses local notifications to remind you of your tasks and appointments. These notifications work entirely locally and do not require an internet connection.</p>
+                <div class="card-title">🔔 Notifications & Exact Alarms</div>
+                <p>The app uses local notifications to remind you of your daily tasks, appointments, and medication schedules.</p>
+                <p><strong>Notifications Permission:</strong> We request this permission (POST_NOTIFICATIONS) to display alerts on your screen when a task is due.</p>
+                <p><strong>Exact Alarm Permission (SCHEDULE_EXACT_ALARM):</strong> Since the app manages time-sensitive reminders (like medication and meetings), we use this permission to ensure the notification fires exactly at the precise minute and second you scheduled, bypassing battery optimization delays.</p>
+                <p>✅ All scheduling and notification triggers operate <strong>entirely locally</strong> on your device and do not require an internet connection.</p>
             </div>
 
             <h2>2. Data Storage</h2>
